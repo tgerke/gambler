@@ -3,4 +3,5 @@
 export(line_payout)
 export(line_to_perc)
 export(parlay_to_line)
+export(parlay_to_perc)
 export(perc_to_line)

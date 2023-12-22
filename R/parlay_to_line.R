@@ -1,4 +1,4 @@
-#' Title
+#' Parlays
 #'
 #' @param ... Money lines
 #'
@@ -7,6 +7,5 @@
 #'
 #' @examples
 parlay_to_line <- function(...) {
-  lines <- list(...)
-  Reduce(`*`, purrr::map(lines, line_to_perc)) |>  perc_to_line()
+  parlay_to_perc(...) |> perc_to_line()
 }

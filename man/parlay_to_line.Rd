@@ -2,7 +2,7 @@
 % Please edit documentation in R/parlay_to_line.R
 \name{parlay_to_line}
 \alias{parlay_to_line}
-\title{Title}
+\title{Parlays}
 \usage{
 parlay_to_line(...)
 }
@@ -13,5 +13,5 @@ parlay_to_line(...)
 Money line for the combined bets assuming independence
 }
 \description{
-Title
+Parlays
 }
