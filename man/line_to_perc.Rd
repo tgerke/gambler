@@ -15,3 +15,7 @@ Win percentage as a decimal
 \description{
 Convert money line into a decimal win percentage
 }
+\examples{
+lines <- c(100, -100, 150)
+line_to_perc(lines)
+}
